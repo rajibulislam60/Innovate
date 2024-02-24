@@ -7,7 +7,6 @@
 }
 .container {
   max-width: 1410px;
-
 }
 :root {
   --primary: #ff5538;
@@ -44,18 +43,18 @@ header {
   background: rgba(255, 85, 56, 0.25);
   position: relative;
 }
-.bannar__area{
+.bannar__area {
   position: relative;
 }
 .bannartop {
   position: absolute;
 }
-.bannarbottom{
+.bannarbottom {
   position: absolute;
   bottom: -148px;
   right: 0;
 }
-.bannarleft{
+.bannarleft {
   position: absolute;
   bottom: -47px;
   left: 0;
@@ -108,14 +107,14 @@ header {
   color: var(--primary);
 }
 
-.bannar__item{
+.bannar__item {
   background: var(--white);
   padding: 40px 30px;
   position: absolute;
   margin-top: -170px;
   row-gap: 30px;
 }
-.bannar__item__heading{
+.bannar__item__heading {
   font-size: 28px;
   font-weight: 600;
   line-height: 160%;
@@ -124,7 +123,7 @@ header {
   margin-top: 38px;
   margin-bottom: 16px;
 }
-.bannar__item__pera{
+.bannar__item__pera {
   font-size: 18px;
   font-weight: 400;
   line-height: 200%;
@@ -133,16 +132,23 @@ header {
   max-width: 374px;
 }
 /* ==================== Bannar CSS ==================== */
-#connect{
+/* ==================== Connect CSS ==================== */
+#connect {
   padding-top: 280px;
+  position: relative;
 }
-.connect__title__heading{
+.connectbottom {
+  position: absolute;
+  bottom: -230px;
+  right: 0;
+}
+.connect__title__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 140%;
-  color: #FF5538;
+  color: #ff5538;
 }
-.connect__heading{
+.connect__heading {
   max-width: 449px;
   font-size: 48px;
   font-weight: 600;
@@ -150,4 +156,363 @@ header {
   color: var(--black);
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
+  margin-bottom: 60px;
 }
+.connect__bannar__img {
+  height: 521px;
+  background: #c4c4c4;
+}
+.connect__text {
+  padding: 47px 80px;
+}
+.connect__bannar__heading {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  max-width: 530px;
+  font-family: "Poppins", sans-serif;
+}
+.connect__bannar__pera {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  color: var(--black);
+  max-width: 480px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+.connect__bannar a {
+  background: var(--primary);
+  border-radius: 18px;
+
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  color: var(--white);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+/* ==================== Connect CSS ==================== */
+/* ==================== Counting CSS ==================== */
+#counting {
+  margin-top: 171px;
+  position: relative;
+}
+.countingtop {
+  position: absolute;
+  top: -220px;
+  left: 0;
+}
+.counting__title {
+  z-index: 999 !important;
+}
+.counting__title__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #ff5538;
+}
+.counting__heading {
+  max-width: 693px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.counting__title__item {
+  display: flex;
+  justify-content: space-between;
+}
+.counting__title__itembtn a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  text-decoration: none;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 18px;
+  padding: 14px 28px;
+  font-family: "Nunito", sans-serif;
+}
+.counting__title__itembtn a:hover {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+.counting__title__itembtn {
+  margin-top: 50px;
+}
+.row__item {
+  row-gap: 30px;
+}
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+}
+.card-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary);
+  line-height: 100%;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+/* ==================== Counting CSS ==================== */
+/* ==================== Hundred CSS ==================== */
+#hundred {
+  background: #fdf9f8;
+  padding: 144px 0;
+  position: relative;
+}
+.hundred__item__box {
+  background: var(--white);
+  text-align: center;
+  padding: 74px 0;
+}
+.hundred__item__box h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+}
+.hundred__item__box h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+}
+.hundred__item {
+  margin-top: 30px;
+}
+.hundred__text {
+  margin-left: 100px;
+}
+.hundred__text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  max-width: 570px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.hundred__text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%;
+  color: var(--black);
+  max-width: 550px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 40px;
+}
+.hundred__text a {
+  background: var(--primary);
+  border-radius: 18px;
+
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  color: var(--white);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+.hundredright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* ==================== Hundred CSS ==================== */
+/* ==================== Sponser CSS ==================== */
+#sponser {
+  padding: 120px 0;
+}
+.sponser__title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  max-width: 849px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.sponser__item {
+  row-gap: 30px;
+}
+/* ==================== Sponser CSS ==================== */
+/* ==================== Slider CSS ==================== */
+#slider{
+  background: #ff5538;
+  padding: 120px 0;
+}
+.slider__main h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.slider__image__item img{
+  margin-right: 28px;
+}
+.slider__image__item{
+  margin-bottom: 60px;
+}
+.slider__main p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  max-width: 690px;
+  margin-bottom: 60px;
+}
+.slider__area h4{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 180%;
+  color: var(--black);
+}
+.prev__btn{
+  top: 409px;
+  left: 60px;
+  
+}
+/* .previcon{
+  color: white;
+  background: black;
+  padding: 15px;
+} */
+.next__btn{
+  top: 409px;
+  right: 990px;
+}
+/* ==================== Slider CSS ==================== */
+/* ==================== Project CSS ==================== */
+#project {
+  padding: 100px 0;
+  background: #ffd7c8;
+  position: relative;
+}
+.project__title__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--black);
+  text-transform: capitalize;
+}
+.project__heading {
+  max-width: 693px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.project__title__item {
+  display: flex;
+  justify-content: space-between;
+}
+.project__title__itembtn a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%;
+  text-decoration: none;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 18px;
+  padding: 14px 28px;
+  font-family: "Nunito", sans-serif;
+}
+.project__line {
+  width: 100%;
+  height: 1px;
+  background: var(--black);
+}
+.project__title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+  max-width: 1243px;
+  text-transform: capitalize;
+  margin-top: 24px;
+}
+.projectr_top {
+  position: absolute;
+  top: 0;
+  right: -210px;
+}
+/* ==================== Project CSS ==================== */
+/* ==================== Footer CSS ==================== */
+.footer__main {
+  padding: 140px 0;
+}
+.footer__pera {
+  max-width: 449px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--black);
+  margin-top: 44px;
+  font-family: "Nunito", sans-serif;
+}
+.footer__item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 15px;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.footer__item ul {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 220%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+}
+.copyright__part {
+  justify-content: space-between;
+}
+.copyright__part h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+}
+.list__item {
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+}
+/* ==================== Footer CSS ==================== */
