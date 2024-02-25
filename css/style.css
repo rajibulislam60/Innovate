@@ -40,7 +40,7 @@ header {
 /* ==================== Navbar CSS ==================== */
 /* ==================== Bannar CSS ==================== */
 #bannar {
-  background: rgba(255, 85, 56, 0.25);
+  background: #FBF3F0;
   position: relative;
 }
 .bannar__area {
@@ -77,8 +77,8 @@ header {
 .bannarshape{
   position: absolute;
   top: 250px;
-  left: 438px;
-  z-index: -1;
+  left: 155px;
+  
 }
 .bannar__heading {
   font-size: 64px;
@@ -183,8 +183,8 @@ header {
 }
 .connect_top{
   position: absolute;
-  top: 418px;
-  left: 940px;
+  top: 420px;
+  left: 383px;
   z-index: -1;
 }
 .connect__main{
