@@ -54,6 +54,16 @@ header {
   bottom: -148px;
   right: 0;
 }
+.bannar__top__img{
+  position: absolute;
+  top: 265px;
+  right: 210px;
+}
+.bannar__top__left__img{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
 .bannarleft {
   position: absolute;
   bottom: -47px;
@@ -63,6 +73,12 @@ header {
   text-align: center;
   padding-top: 293px;
   padding-bottom: 297px;
+}
+.bannarshape{
+  position: absolute;
+  top: 250px;
+  left: 438px;
+  z-index: -1;
 }
 .bannar__heading {
   font-size: 64px;
@@ -137,6 +153,12 @@ header {
   padding-top: 280px;
   position: relative;
 }
+.connect__top__right{
+  position: absolute;
+  top: 385px;
+  right: 85px;
+  z-index: -1;
+}
 .connectbottom {
   position: absolute;
   bottom: -230px;
@@ -157,14 +179,38 @@ header {
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
   margin-bottom: 60px;
+  text-transform: capitalize;
 }
-.connect__bannar__img {
-  height: 521px;
-  background: #c4c4c4;
+.connect_top{
+  position: absolute;
+  top: 418px;
+  left: 940px;
+  z-index: -1;
 }
-.connect__text {
-  padding: 47px 80px;
+.connect__main{
+  position: relative;
 }
+.connect__left{
+  width: 45%;
+  height: 512px;
+}
+.connect__left img{
+  width: 100%;
+  height: 100%;
+}
+.connect__right{
+  width: 60%;
+  background: rgba(251, 243, 240, .8);
+  padding: 79px 0;
+  top: -30px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.connect__right__text{
+  margin-left: 185px;
+}
+
 .connect__bannar__heading {
   font-size: 36px;
   font-weight: 600;
@@ -183,7 +229,7 @@ header {
   margin-top: 20px;
   margin-bottom: 48px;
 }
-.connect__bannar a {
+.connect__right a {
   background: var(--primary);
   border-radius: 18px;
 
